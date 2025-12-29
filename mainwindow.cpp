@@ -226,7 +226,7 @@ void MainWindow::flashNextImageLabel()
         "  padding: 2px 6px;"
         "}"
         );
-    flashTimer_.start(500);
+    flashTimer_.start(300);
 }
 
 void MainWindow::showOverlayGlyph(const QString &glyph)
